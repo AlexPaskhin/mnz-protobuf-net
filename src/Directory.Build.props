@@ -29,6 +29,9 @@
         <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
 
         <LibSysValueTuple>4.5.0</LibSysValueTuple>
+        <ProtoGenVersion>3.2.30</ProtoGenVersion>
+        <VersionPrefix>3.2.30</VersionPrefix>
+
     </PropertyGroup>
     <PropertyGroup Condition="'$(Configuration)'=='Release' or '$(Configuration)'=='VS'">
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -36,9 +39,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+
         <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" PrivateAssets="all" />
         <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All"/>
-        <PackageReference Include="Nerdbank.GitVersioning" PrivateAssets="All" />
+        <!--<PackageReference Include="Nerdbank.GitVersioning" PrivateAssets="All" />-->
         <!-- oh gawd, I'm just not emotionally prepared for this...
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
       <PrivateAssets>all</PrivateAssets>

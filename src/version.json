@@ -4,15 +4,15 @@
   "versionHeightOffset": -1,
   "assemblyVersion": "3.0",
   "nugetPackageVersion": {
-    "semVer": 2
+    "semVer": 1
   },
   "publicReleaseRefSpec": [
-    "^refs/heads/main$",
+//    "^refs/heads/mnz",
     "^refs/tags/v\\d+\\.\\d+"
   ],
   "cloudBuild": {
     "buildNumber": {
-      "enabled": true,
+      "enabled": false,
       "setVersionVariables": true
     }
   }
